@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+input,
+button,
+textarea {
+  background-color: #fff;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.instagram__heading {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  translate: -50% -10%;
+  z-index: 1;
+  font-size: 6rem;
+  letter-spacing: -0.2rem;
+  background: linear-gradient(to right, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background-clip: text;
+  color: transparent;
+  padding: 1rem;
+  text-shadow: 0.2rem 0.2rem 1rem rgba(255, 255, 255, 0.2);
+}
+
+.instagram {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.instagram__square {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  background-color: transparent;
+  border: 1.2rem solid #fff;
+  border-radius: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram__square-circle01 {
+  width: 5rem;
+  height: 5rem;
+  background-color: transparent;
+  border: 1.2rem solid #fff;
+  border-radius: 50%;
+}
+.instagram__square-circle02 {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
