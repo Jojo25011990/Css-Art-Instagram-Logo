@@ -94,11 +94,18 @@ body {
   letter-spacing: -0.2rem;
   background: linear-gradient(to right, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   background-clip: text;
+  background-position-x: -50rem;
   color: transparent;
   padding: 1rem;
   text-shadow: 0.2rem 0.2rem 1rem rgba(255, 255, 255, 0.2);
+  animation: instagram-bg 1s 0.5s linear forwards;
 }
 
+@keyframes instagram-bg {
+  to {
+    background-position-x: 0;
+  }
+}
 .instagram {
   width: 20rem;
   height: 20rem;
